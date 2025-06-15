@@ -2,26 +2,34 @@
 	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
 	<ModId Value="" />
 	<!--Name of the mod to display to players-->
-	<DisplayName Value="Disable Screenshot" />
+	<DisplayName Value="Used by another process fix" />
 	<!--Short description of the mod-->
 	<ShortDescription Value="This is a potential temporary mod to fix the save game issue" />
 	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
 	<!--LongDescription Value="This is a long description" /-->
 	<LongDescription>
-		IMPORTANT NOTE: Only download if you have the below issue!
-		READ DESCRIPTION CAREFULLY
-		
-		Since the patch, myself and many others have experienced an issue preventing the saving of the game. 
+		## ⚠️ IMPORTANT NOTE: Only download if you have the below issue!
+		**READ THE DESCRIPTION CAREFULLY**
 
-		Specifically, this error "XXX.SaveGameData: The process cannot access the file because it is being used by another process."
+		Since the patch, myself and many others have experienced an issue preventing the saving of the game.
 
-		This temporary mod will disable the screenshot feature used to display a screenshot of your city in the load game menu and since the update, on the loading screen.
+		Specifically, this error:
 
-		So far, this mod does fix the issue but its not a guarentee.
+		XXX.SaveGameData: The process cannot access the file because it is being used by another process.
 
-		If you are experiencing this issue, and this mod does not fix it, please post your logs here https://discord.com/channels/1024242828114673724/1383198165012058133 (Cities: Skylines Modding discord)
-		If this does fix it for you, please leave a comment below to let me know
-		
+		This temporary mod disables the **screenshot feature** used to display a screenshot of your city in the **Load Game** menu, and—since the update—on the **loading screen**.
+
+		So far, this mod **has fixed the issue** for many users, but it is **not a guaranteed fix**.
+		The **underlying cause of this issue is still unknown**.
+
+		---
+
+		### ✅ What to do:
+
+		- If you **are experiencing this issue** and this mod **does NOT fix it**, please post your logs here:
+		👉 [Cities: Skylines Modding Discord - #cs2-modding-support](https://discord.com/channels/1024242828114673724/1383198165012058133)
+
+		- If this **does fix it** for you, please leave a comment below to let me know!
 	</LongDescription>
 	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail.png" />
@@ -44,5 +52,5 @@
 	<!--<ChangeLog>
 	</ChangeLog>-->
 	<!--External link, can be set multiple times. supported types are "discord", "github", "youtube", "twitch", "x", "paypal", "patreon", "buymeacoffee", "kofi", "crowdin", "gitlab", "gofundme"-->
-	<ExternalLink Type="" Url="" />
+	<ExternalLink Type="github" Url="https://github.com/DanielVNZ/DisableScreenshot/tree/master" />
 </Publish>
